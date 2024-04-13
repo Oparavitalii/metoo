@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/api.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-functions": "^4.9.0",
+    "http": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^2.0.20",
+    "serverless-http": "^3.2.0",
+    "socket.io": "^4.7.5"
+  }
+}
